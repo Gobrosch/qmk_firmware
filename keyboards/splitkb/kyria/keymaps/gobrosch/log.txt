@@ -1,0 +1,78 @@
+Git log for changes before rev.2 was merged with official qmk repo
+
+
+commit a2411e01fc7e4f899c631d140905399ef711633f
+Author: Gobrosch <github@gobrosch.de>
+Date:   Wed Feb 23 22:18:51 2022 +0100
+
+    add CapsLock to SYM layer;
+    correct right parentheses
+
+commit 3a84746dc662ad8cf0397e122cd20faa8979eb95
+Author: Gobrosch <github@gobrosch.de>
+Date:   Wed Feb 23 21:32:34 2022 +0100
+
+    add umlaute to Colemak base layer
+
+commit 18d07fa5e3d44451f0390c01ffbd849bef72670d
+Author: Gobrosch <github@gobrosch.de>
+Date:   Sun Feb 20 21:19:09 2022 +0100
+
+    disable RGB animations to save space;
+    enable AutoShift
+
+commit 9032cc22aa93b883e999b59392284d12a77c7cb1
+Author: Gobrosch <github@gobrosch.de>
+Date:   Sun Feb 20 20:04:32 2022 +0100
+
+    change RGB lighting depending on layer
+
+commit 44e7475cdc772ee89b67c2814ed95646d6345b63
+Author: Gobrosch <github@gobrosch.de>
+Date:   Sun Feb 20 19:12:19 2022 +0100
+
+    duplicate ALT_ENT on the right half as RAL_ENT
+
+commit 06dd6ce64114572250d5cddd47ed286bf8608c42
+Author: Gobrosch <github@gobrosch.de>
+Date:   Sun Feb 20 19:05:31 2022 +0100
+
+    use TAPPING_TOGGLE (2 taps) to switch to any of the upper layers;
+    MENU key switches back to COLEMAK_DH (for now)
+
+commit 7d9d07198848ba63a69bff46857f16d91a65e34a
+Author: Gobrosch <github@gobrosch.de>
+Date:   Sat Feb 19 18:38:44 2022 +0100
+
+    switch to BOOTLOADER = caterina
+
+commit 01439731b4479abbd749d4f5379c4a52e5bfa0a7
+Author: Gobrosch <github@gobrosch.de>
+Date:   Sat Feb 19 17:56:40 2022 +0100
+
+    make COLEMAK-DH layer 0
+
+commit f73915694bfd7a6cca16b5cb49afaea089823bf3
+Author: Gobrosch <github@gobrosch.de>
+Date:   Sat Feb 19 17:48:52 2022 +0100
+
+    put KC_MUTE on left encode, move KC_TAB to the position of KC_CAPS
+
+commit 111290facf17738a19f96b292a7cc8a1d146f2c3
+Author: Gobrosch <github@gobrosch.de>
+Date:   Sat Feb 19 17:26:45 2022 +0100
+
+    put backspace on left space
+
+commit b32923cccfa0f01f6d77d13c0bba8e8cd558bcd8
+Author: Gobrosch <github@gobrosch.de>
+Date:   Sat Feb 19 17:24:57 2022 +0100
+
+    exchange Z and Y also for Colemak and Dvorak
+
+commit 7196804b590bc604e437c00e9d405517d2e9abf9
+Author: Gobrosch <github@gobrosch.de>
+Date:   Sat Feb 19 16:55:02 2022 +0100
+
+    exchange Y and Z for QWERTZ layout
+    
