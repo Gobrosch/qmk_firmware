@@ -11,7 +11,6 @@ This keymap is based on the Kyria Default Keymap below. The following changes we
     duplicate ALT_ENT on the right half as RAL_ENT
     use TAPPING_TOGGLE (2 taps) to switch to any of the upper layers;
     MENU key switches back to COLEMAK_DH (for now)
-    switch to BOOTLOADER = caterina
     make COLEMAK-DH layer 0
     put KC_MUTE on left encode, move KC_TAB to the position of KC_CAPS
     put backspace on left space
@@ -21,6 +20,8 @@ This keymap is based on the Kyria Default Keymap below. The following changes we
 Further changes logged using git:
 
     put Del on NAV + Backspace
+    switch to BOOTLOADER = caterina
+
         
 
 # Kyria's Default Keymap
