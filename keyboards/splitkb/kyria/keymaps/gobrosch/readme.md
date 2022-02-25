@@ -17,7 +17,11 @@ This keymap is based on the Kyria Default Keymap below. The following changes we
     put backspace on left space
     exchange Z and Y also for Colemak and Dvorak
     exchange Y and Z for QWERTZ layout
-    
+
+Further changes logged using git:
+
+    put Del on NAV + Backspace
+        
 
 # Kyria's Default Keymap
 
