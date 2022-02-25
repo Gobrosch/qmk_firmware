@@ -42,6 +42,7 @@ enum layers {
 #define CTL_MINS MT(MOD_RCTL, KC_MINUS)
 #define ALT_ENT  MT(MOD_LALT, KC_ENT)
 #define RAL_ENT  MT(MOD_RALT, KC_ENT)
+#define SFT_TAB  MT(MOD_LSFT, KC_TAB)
 
 // Note: LAlt/Enter (ALT_ENT) is not the same thing as the keyboard shortcut Alt+Enter.
 // The notation `mod/tap` denotes a key that activates the modifier `mod` when held down, and
@@ -108,7 +109,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_COLEMAK_DH] = LAYOUT(
      KC_MUTE , KC_Q ,  KC_W   ,  KC_F  ,   KC_P ,   KC_B ,                                         KC_J ,   KC_L ,  KC_U ,   DE_Y ,DE_ODIA, DE_UDIA,
      CTL_ESC , KC_A ,  KC_R   ,  KC_S  ,   KC_T ,   KC_G ,                                         KC_M ,   KC_N ,  KC_E ,   KC_I ,  KC_O , CTL_AE,
-     KC_LSFT , DE_Z ,  KC_X   ,  KC_C  ,   KC_D ,   KC_V , DE_LPRN,KC_TAB ,     FKEYS  , DE_RPRN,  KC_K ,   KC_H ,KC_COMM, KC_DOT ,DE_MINS, KC_RSFT,
+     SFT_TAB , DE_Z ,  KC_X   ,  KC_C  ,   KC_D ,   KC_V , DE_LPRN,KC_TAB ,     FKEYS  , DE_RPRN,  KC_K ,   KC_H ,KC_COMM, KC_DOT ,DE_MINS, KC_RSFT,
                                  ADJUST, KC_LGUI, ALT_ENT, KC_BSPC, NAV   ,     SYM    , KC_SPC ,RAL_ENT, KC_RGUI,KC_MENU
     ),
 
