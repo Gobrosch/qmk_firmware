@@ -44,13 +44,13 @@ bool oled_task_kb(void) {
         oled_write_P(PSTR("Layer: "), false);
         switch (get_highest_layer(layer_state | default_layer_state)) {
             case 0:
-                oled_write_P(PSTR("QWERTY\n"), false);
+                oled_write_P(PSTR("Colemak-DH\n"), false);
                 break;
             case 1:
-                oled_write_P(PSTR("Dvorak\n"), false);
+                oled_write_P(PSTR("QWERTY\n"), false);
                 break;
             case 2:
-                oled_write_P(PSTR("Colemak-DH\n"), false);
+                oled_write_P(PSTR("Dvorak\n"), false);
                 break;
             case 3:
                 oled_write_P(PSTR("Nav\n"), false);
