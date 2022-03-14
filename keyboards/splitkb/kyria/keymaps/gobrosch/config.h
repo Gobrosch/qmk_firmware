@@ -26,3 +26,6 @@
 
 // Lets you roll mod-tap keys
 #define IGNORE_MOD_TAP_INTERRUPT
+
+// set encoder resolution so not to skip steps
+#define ENCODER_RESOLUTION 2
