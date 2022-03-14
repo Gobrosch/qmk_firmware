@@ -306,29 +306,47 @@ bool oled_task_user(void) {
     return false;
 }
 #endif
+DELETE THIS LINE TO UNCOMMENT (2/2) */
+
 
 #ifdef ENCODER_ENABLE
 bool encoder_update_user(uint8_t index, bool clockwise) {
-
-    if (index == 0) {
-        // Volume control
-        if (clockwise) {
-            tap_code(KC_VOLU);
-        } else {
-            tap_code(KC_VOLD);
+    if (get_highest_layer(layer_state|default_layer_state) > 0) { /* Amy of the upper layers */
+        if (index == 0) { /* first encoder */
+            // Page up/Page down
+            if (clockwise) {
+                tap_code(KC_PGDN);
+            } else {
+                tap_code(KC_PGUP);
+            }
+        } else if (index == 1) { /* second encoder (currently not used) */
+            // Page up/Page down
+            if (clockwise) {
+                tap_code(KC_PGDN);
+            } else {
+                tap_code(KC_PGUP);
+            }
         }
-    } else if (index == 1) {
-        // Page up/Page down
-        if (clockwise) {
-            tap_code(KC_PGDN);
-        } else {
-            tap_code(KC_PGUP);
+    } else { /* Layer 0 */
+        if (index == 0) {
+            // Volume control
+            if (clockwise) {
+                tap_code(KC_VOLU);
+            } else {
+                tap_code(KC_VOLD);
+            }
+        } else if (index == 1) {
+            // Page up/Page down
+            if (clockwise) {
+                tap_code(KC_PGDN);
+            } else {
+                tap_code(KC_PGUP);
+            }
         }
     }
     return false;
 }
 #endif
-DELETE THIS LINE TO UNCOMMENT (2/2) */
 
 #ifdef RGBLIGHT_ENABLE  
 layer_state_t layer_state_set_user(layer_state_t state) {
