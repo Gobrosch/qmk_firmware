@@ -4,6 +4,7 @@
   "maintainer": "skullydazed",
   "debounce": 20,
   "processor": "atmega32u4",
+  "bootloader": "atmel-dfu",
   "diode_direction": "ROW2COL",
   "features": {
     "audio": true,
@@ -32,7 +33,7 @@
     "saturation_steps": 17
   },
   "usb": {
-    "device_ver": "0x0001",
+    "device_version": "0.0.1",
     "pid": "0x2330",
     "vid": "0xC1ED"
   },
